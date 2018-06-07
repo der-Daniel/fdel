@@ -5,7 +5,7 @@ then
     find "$@"
     echo -n "Delete (yes/no): "
     read answer
-    if [ "$answer" == "yes" ]
+    if [ "$answer" = "yes" ]
     then
 	    find "$@" -delete
     else
