@@ -4,7 +4,7 @@ This script was motivated by this post: https://serverfault.com/a/363816/383469
 
 # usage
 
-fdel passes all parameter to `find`. If it is a valid command the script prints out all findings. Then the user is asked if he wants to delete those files. Given a `yes` the script deletes all findings by issuing the same command with the `-delete` flag of `find.
+fdel passes all parameters to `find`. If it is a valid command the script prints out all findings. Then the user is asked if he wants to delete those files. Given a `yes` the script deletes all findings by issuing the same command with the `-delete` flag of `find`.
 
 # example
 
